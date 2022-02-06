@@ -1,0 +1,31 @@
+body{
+	background-color: #000000
+}
+
+h1, h3{
+	color: #ffffff
+}
+
+.form-label{
+	color: #ffffff
+}
+
+.board{
+	width: 24vw;
+	height: 50vh;
+	display: grid;
+	justify-content:center;
+	align-content:center;
+	justify-items:center;
+	align-items:center;
+	grid-template-columns: repeat(3, auto);
+	grid-gap: 1px;
+}
+
+.btn.btn-secondary, .btn.btn-primary, .btn.btn-danger, .btn.btn-success{
+	width: 100px;
+	height: 100px;
+	text-align:center;
+	vertical-align:center;
+	font-size:50px;
+}

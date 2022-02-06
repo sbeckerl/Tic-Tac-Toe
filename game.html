@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title>Tic Tac Toe</title>
+	    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">	 
+		<link rel="stylesheet" href="styles.css"
+	</head>
+	<body>
+		<div class="container bg-dark">
+			<h1 id="result-display">Tic-Tac-Toe</h1>
+            <a id="reset" onclick="reset()" class="btn btn-warning">
+                Reset Game
+            </a>
+            <div class="board" id="board">
+                <a id="b1" onclick="placeMark(1)" class="btn btn-secondary"></a>
+                <a id="b2" onclick="placeMark(2)" class="btn btn-secondary"></a>
+                <a id="b3" onclick="placeMark(3)" class="btn btn-secondary"></a>
+                <a id="b4" onclick="placeMark(4)" class="btn btn-secondary"></a>
+                <a id="b5" onclick="placeMark(5)" class="btn btn-secondary"></a>
+                <a id="b6" onclick="placeMark(6)" class="btn btn-secondary"></a>
+                <a id="b7" onclick="placeMark(7)" class="btn btn-secondary"></a>
+                <a id="b8" onclick="placeMark(8)" class="btn btn-secondary"></a>
+                <a id="b9" onclick="placeMark(9)" class="btn btn-secondary"></a>
+            </div>
+		</div>
+		<script src="main.js"></script> 
+	</body>
+</html>
